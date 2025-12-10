@@ -86,6 +86,7 @@ p{
     max-width: 540px;
     width: 100%;
     text-align: center;
+    font-size: 18px;
 }
 
 
@@ -293,6 +294,7 @@ p{
 .directions h3{
     color: rgba(255, 255, 255, 1);
 
+    font-variant-numeric: lining-nums;
 }
 .directions p{
     color: rgba(255, 255, 255, 0.70);
@@ -348,7 +350,7 @@ p{
     line-height: 130%;
 }
 .tool-helps-text p{
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
 
@@ -391,6 +393,7 @@ p{
     border-radius: 15px;
     padding: 20px 20px 15px 20px;
 }
+
 .create-faster-box img{
     width: 24px;
 }
@@ -407,11 +410,12 @@ p{
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 12px;
 }
 .create-faster-info p{
     max-width: 359px;
     width: 100%;
+    margin-top: 9px;
 }
 
 
@@ -480,6 +484,9 @@ p{
     backdrop-filter: unset;
 
     box-shadow: unset;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
 }
 .logos-more-title{
     margin-top: 60px;
@@ -715,7 +722,13 @@ footer{
     background: unset;
     border: unset;
 }
+footer .btn-reg{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.1) 76.44%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 
+
+}
 .footer-menu a{
     color: #F4F4F4;
     transition: 0.3s;
@@ -772,7 +785,6 @@ footer{
 
     .create-faster-info {
         margin-top: 25px;
-        gap: 20px;
     }
     h2 {
         font-size: 32px;
@@ -1019,7 +1031,7 @@ footer{
     }
     .create-faster-box {
         gap: 18px;
-        width: 134px;
+        width: 48%;
         border-radius: 12px;
         padding: 15px 15px 15px 15px;
     }
@@ -1127,12 +1139,14 @@ footer{
         z-index: 2;
         position: relative;
     }
-
+    .logos-more-names ul {
+        gap: 10px;
+    }
     .create-faster-box:nth-child(1){
         width: 100%;
     }
     .logos-more-names ul li {
-        padding: 12px 15px;
+        padding: 10px 15px;
         font-size: 12px;
     }
     .logos-more {
@@ -1178,7 +1192,9 @@ footer{
         width: 30px;
         height: 30px;
     }
-
+    .create-faster-info p {
+        margin-top: 3px;
+    }
 
 
     .first-editor {
