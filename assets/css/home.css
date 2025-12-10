@@ -1207,4 +1207,8 @@ footer .btn-reg{
         border-radius: 15px;
         padding: 25px;
     }
+    .obj-directions img {
+        width: 108px;
+        border-radius: 17px;
+    }
 }
