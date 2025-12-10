@@ -22,11 +22,11 @@ header{
 
 }
 .logo{
-display: flex;
+    display: flex;
 }
 
 .menu-mobile{
-    gap: 228px;
+    gap: 254px;
     justify-content: space-between;
     width: 100%;
 }
@@ -133,18 +133,11 @@ display: flex;
     display: none;
 }
 
-@media (max-width: 1299px) {
-    .menu-mobile {
-        gap: 71px;
-    }
 
-
-
-}
 @media (max-width: 1199px){
 
     .menu-mobile {
-        gap: 133px;
+        gap: 180px;
     }
 }
 
